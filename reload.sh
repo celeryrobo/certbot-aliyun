@@ -64,6 +64,6 @@ case "$1" in
     "cdn") cdn ;;
     "vod") vod ;;
     "oss") oss ;;
-    *) echo "deploy options is [ngx|cdn|vod|oss] ..." ;;
+        *) echo "deploy options is [ngx|cdn|vod|oss] ..." ;;
 esac
 
